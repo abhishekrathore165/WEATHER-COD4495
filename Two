@@ -1,0 +1,33 @@
+Task-Two Weather App using HTML , CSS , JAVSCRIPT 
+Introduction:
+
+The Weather App is a simple web application that allows users to check the weather conditions of any city. It provides real-time weather data such as temperature, humidity, and wind speed.
+User Interface:
+
+    Card Layout: The app features a card-based layout for a clean and organized display of weather information.
+    Search Bar: Users can enter the name of the city they want to check the weather for in the search bar.
+    Search Button: Clicking the search button triggers the weather data retrieval process.
+    Weather Display: Upon successful retrieval, the weather information is displayed including the city name, temperature, humidity, wind speed, and an icon representing the weather condition.
+    Error Message: If the entered city name is invalid or not found, an error message is displayed.
+
+Features:
+
+    Dynamic Weather Data: The app fetches real-time weather data from the OpenWeatherMap API based on the user's input.
+    Error Handling: It provides feedback to the user in case of an invalid city name or if the city is not found.
+    Responsive Design: The app is designed to be responsive and can adapt to various screen sizes, making it accessible across devices.
+
+Technologies Used:
+
+    HTML, CSS, JavaScript: The core technologies used for building the front-end interface and functionality.
+    OpenWeatherMap API: Used to retrieve weather data based on the city entered by the user.
+
+Working Process:
+
+    User Input: The user enters the name of the city they want to check the weather for.
+    Data Retrieval: When the user clicks the search button, the app sends a request to the OpenWeatherMap API to fetch weather data for the specified city.
+    Data Display: Upon receiving the response, the app updates the interface with the retrieved weather information.
+    Error Handling: If the city is not found or the request fails, an error message is displayed to the user.
+
+Conclusion:
+
+The Weather App provides a convenient way for users to access weather information for any city quickly and easily. With its intuitive interface and reliable data retrieval, it serves as a useful tool for staying informed about weather conditions worldwide.
